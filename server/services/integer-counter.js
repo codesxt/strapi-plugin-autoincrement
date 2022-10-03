@@ -46,7 +46,7 @@ module.exports = ({ strapi }) => ({
   async incrementKey(key) {
     const counter = await strapi
       .plugin(plugin)
-      .service('biginteger-counter')
+      .service('integer-counter')
       .getCounterByKeyAndCreateIfNotExists(key)
     return await strapi
       .entityService

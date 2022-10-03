@@ -30,6 +30,23 @@ export default {
               Declare settings to be added to the "Base settings" section
               of the field in the Content-Type Builder
             */ 
+            {
+              sectionTitle: null,
+              items: [
+                {
+                  autoFocus: true,
+                  name: 'default',
+                  type: 'number',
+                  value: 4,
+                  step: 1,
+                  intlLabel: {
+                    id: 'autoincrement.integer.form.attribute.settings.default',
+                    defaultMessage: 'Default value (will be overwritten later)',
+                  },
+                  validations: {},
+                },
+              ],
+            },
           ],
           advanced: [
             /*
@@ -70,7 +87,7 @@ export default {
             /*
               Declare settings to be added to the "Base settings" section
               of the field in the Content-Type Builder
-            */ 
+            */
           ],
           advanced: [
             /*

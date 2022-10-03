@@ -29,6 +29,8 @@ An entry is created automatically in the corresponding Content-Type when you add
 
 ## <a id="installation"></a> Installation
 
+You need to have a Strapi project with version 4.4 or superior to user Custom Fields.
+
 Inside your Strapi app, add the package:
 
 With `npm`:
