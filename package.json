@@ -1,0 +1,42 @@
+{
+  "name": "strapi-plugin-autoincrement",
+  "version": "0.1.0-alpha.1",
+  "description": "A plugin to enable autoincrementable custom fields.",
+  "strapi": {
+    "name": "strapi-plugin-autoincrement",
+    "description": "A plugin to enable autoincrementable custom fields.",
+    "kind": "plugin",
+    "displayName": "Autoincrement"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Bruno Alexis Faúndez Valenzuela",
+    "email": "developers@ferativ.com",
+    "url": "https://esemismobruno.com"
+  },
+  "maintainers": [
+    {
+      "name": "Bruno Alexis Faúndez Valenzuela",
+      "email": "developers@ferativ.com",
+      "url": "https://esemismobruno.com"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesxt/strapi-plugin-autoincrement.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codesxt/strapi-plugin-autoincrement/issues"
+  },
+  "funding": [
+    {
+      "type" : "ko-fi",
+      "url" : "https://ko-fi.com/codesxt"
+    }
+  ],
+  "license": "MIT"
+}

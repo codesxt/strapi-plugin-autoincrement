@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biginteger-counters",
+  "info": {
+    "singularName": "biginteger-counter",
+    "pluralName": "biginteger-counters",
+    "displayName": "Big Integer Counters"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

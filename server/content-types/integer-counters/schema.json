@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "integer-counters",
+  "info": {
+    "singularName": "integer-counter",
+    "pluralName": "integer-counters",
+    "displayName": "Integer Counters"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

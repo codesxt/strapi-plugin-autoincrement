@@ -1,0 +1,7 @@
+{
+  "plugin.name": "Autoincrement",
+  "integer.form.label": "Autoincrement (integer)",
+  "integer.form.description": "Generates an autoincrement integer field",
+  "biginteger.form.label": "Autoincrement (biginteger)",
+  "biginteger.form.description": "Generates an autoincrement biginteger field"
+}
